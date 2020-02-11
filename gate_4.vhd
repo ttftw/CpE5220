@@ -52,7 +52,7 @@ end gate_4;
 		f <= NOT (w OR x OR y OR z);
 	end nor4_equation;
 
-or4
+-- or4
 	architecture or4_basic of gate_4 is
 		component or_2 is
 			port(x, y: in std_logic; f: out std_logic);
